@@ -1,0 +1,63 @@
+
+    \ begin{tabular}{ |p{0.8cm}|p{1.5cm}|p{1.7cm}|p{0.7cm}|p{1.4cm}|  }
+     \hline
+     \multicolumn{5}{|c|}{STEPLIMITEQUALLYBALANCED} \\
+     \hline
+     Model & Search Set & Skip Factor & Loop & Run Time \\
+     \hline
+    
+                    EXP & SET & 1 & 163.52 & 5.7280\\
+                    
+                    EXP & SET & 2 & 82.44 & 2.9121\\
+                    
+                    EXP & SET & 3 & 54.65 & 1.9697\\
+                    
+                    EXP & SET & 4 & 41.65 & 1.4600\\
+                    
+     \hline
+    \end{tabular}
+    
+
+
+
+    \ begin{tabular}{ |p{0.8cm}|p{1.5cm}|p{1.7cm}|p{0.7cm}|p{1.4cm}|  }
+     \hline
+     \multicolumn{5}{|c|}{STEPLIMITONLYPOSITIVE} \\
+     \hline
+     Model & Search Set & Skip Factor & Loop & Run Time \\
+     \hline
+    
+                    EXP & SET & 1 & 183.76 & 3.2019\\
+                    
+                    EXP & SET & 2 & 92.56 & 1.6828\\
+                    
+                    EXP & SET & 3 & 61.33 & 1.2046\\
+                    
+                    EXP & SET & 4 & 46.61 & 0.8862\\
+                    
+     \hline
+    \end{tabular}
+    
+
+
+
+    \ begin{tabular}{ |p{0.8cm}|p{1.5cm}|p{1.7cm}|p{0.7cm}|p{1.4cm}|  }
+     \hline
+     \multicolumn{5}{|c|}{ONLYPOSITIVE} \\
+     \hline
+     Model & Search Set & Skip Factor & Loop & Run Time \\
+     \hline
+    
+                    EXP & SET & 1 & 424.2 & 22.8724\\
+                    
+                    EXP & SET & 2 & 212.4 & 10.8959\\
+                    
+                    EXP & SET & 3 & 141.81 & 7.2794\\
+                    
+                    EXP & SET & 4 & 105.94 & 5.5422\\
+                    
+     \hline
+    \end{tabular}
+    
+
+

@@ -1,0 +1,3 @@
+from Environments.KeyRoomEnvironment.envs.keyroomenvironment import KeyRoomEnvironmentV0
+from Environments.KeyRoomEnvironment.envs.keyroomenvironmentv1 import KeyRoomEnvironmentV1
+from Environments.KeyRoomEnvironment.envs.keyroomenvironmentv2 import KeyRoomEnvironmentV2

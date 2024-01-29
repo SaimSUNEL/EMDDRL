@@ -1,0 +1,180 @@
+
+    \ begin{tabular}{ |p{0.8cm}|p{1.5cm}|p{1.7cm}|p{0.7cm}|p{1.4cm}|  }
+     \hline
+     \multicolumn{5}{|c|}{STEPLIMITEQUALLYBALANCED} \\
+     \hline
+     Model & Search Set & Skip Factor & Loop & Run Time \\
+     \hline
+    
+                    EXP & SET & 1 & 147.733333333 & 5.8389\\
+                    
+                    EXP & SET & 2 & 74.5666666667 & 3.1553\\
+                    
+                    EXP & SET & 3 & 49.8666666667 & 1.9706\\
+                    
+                    EXP & SET & 4 & 37.5666666667 & 1.5028\\
+                    
+                    LIN & SET & 1 & 286.966666667 & 8.3576\\
+                    
+                    LIN & SET & 2 & 145.433333333 & 4.6480\\
+                    
+                    LIN & SET & 3 & 97.3666666667 & 3.1616\\
+                    
+                    LIN & SET & 4 & 72.3 & 2.4460\\
+                    
+                    EXP & ALL & 1 & 148.3 & 8.4696\\
+                    
+                    EXP & ALL & 2 & 74.9 & 4.1223\\
+                    
+                    EXP & ALL & 3 & 50.2 & 2.8285\\
+                    
+                    EXP & ALL & 4 & 37.5 & 2.0411\\
+                    
+                    LIN & ALL & 1 & 327.533333333 & 16.4117\\
+                    
+                    LIN & ALL & 2 & 164.566666667 & 8.8519\\
+                    
+                    LIN & ALL & 3 & 112.533333333 & 6.0490\\
+                    
+                    LIN & ALL & 4 & 82.6666666667 & 4.8219\\
+                    
+     \hline
+    \end{tabular}
+    
+
+
+
+    \ begin{tabular}{ |p{0.8cm}|p{1.5cm}|p{1.7cm}|p{0.7cm}|p{1.4cm}|  }
+     \hline
+     \multicolumn{5}{|c|}{STEPLIMITONLYPOSITIVE} \\
+     \hline
+     Model & Search Set & Skip Factor & Loop & Run Time \\
+     \hline
+    
+                    EXP & SET & 1 & 175.6 & 3.4301\\
+                    
+                    EXP & SET & 2 & 88.5333333333 & 1.7123\\
+                    
+                    EXP & SET & 3 & 57.8333333333 & 1.1741\\
+                    
+                    EXP & SET & 4 & 44.6666666667 & 0.8844\\
+                    
+                    LIN & SET & 1 & 205.1 & 3.6760\\
+                    
+                    LIN & SET & 2 & 102.833333333 & 1.9621\\
+                    
+                    LIN & SET & 3 & 68.9 & 1.3013\\
+                    
+                    LIN & SET & 4 & 51.7666666667 & 0.9964\\
+                    
+                    EXP & ALL & 1 & 176.933333333 & 4.3204\\
+                    
+                    EXP & ALL & 2 & 89.3 & 2.4031\\
+                    
+                    EXP & ALL & 3 & 58.1 & 1.5340\\
+                    
+                    EXP & ALL & 4 & 44.8 & 1.1983\\
+                    
+                    LIN & ALL & 1 & 218.9 & 6.2692\\
+                    
+                    LIN & ALL & 2 & 110.233333333 & 3.0884\\
+                    
+                    LIN & ALL & 3 & 73.2666666667 & 2.2284\\
+                    
+                    LIN & ALL & 4 & 55.7666666667 & 1.6921\\
+                    
+     \hline
+    \end{tabular}
+    
+
+
+
+    \ begin{tabular}{ |p{0.8cm}|p{1.5cm}|p{1.7cm}|p{0.7cm}|p{1.4cm}|  }
+     \hline
+     \multicolumn{5}{|c|}{EQUALLYBALANCED} \\
+     \hline
+     Model & Search Set & Skip Factor & Loop & Run Time \\
+     \hline
+    
+                    EXP & SET & 1 & 155.0 & 8.7005\\
+                    
+                    EXP & SET & 2 & 78.0689655172 & 4.4412\\
+                    
+                    EXP & SET & 3 & 52.2068965517 & 2.9141\\
+                    
+                    EXP & SET & 4 & 38.9310344828 & 2.2289\\
+                    
+                    LIN & SET & 1 & 268.137931034 & 12.1333\\
+                    
+                    LIN & SET & 2 & 133.655172414 & 6.2120\\
+                    
+                    LIN & SET & 3 & 89.2390804597 & 4.3739\\
+                    
+                    LIN & SET & 4 & 67.1034482759 & 3.3017\\
+                    
+                    EXP & ALL & 1 & 155.75862069 & 11.3619\\
+                    
+                    EXP & ALL & 2 & 78.4827586207 & 5.4484\\
+                    
+                    EXP & ALL & 3 & 52.4137931034 & 3.6028\\
+                    
+                    EXP & ALL & 4 & 39.1724137931 & 2.4960\\
+                    
+                    LIN & ALL & 1 & 316.931034483 & 17.0693\\
+                    
+                    LIN & ALL & 2 & 160.310344828 & 8.8819\\
+                    
+                    LIN & ALL & 3 & 107.034482759 & 6.0800\\
+                    
+                    LIN & ALL & 4 & 80.9310344828 & 4.7825\\
+                    
+     \hline
+    \end{tabular}
+    
+
+
+
+    \ begin{tabular}{ |p{0.8cm}|p{1.5cm}|p{1.7cm}|p{0.7cm}|p{1.4cm}|  }
+     \hline
+     \multicolumn{5}{|c|}{ONLYPOSITIVE} \\
+     \hline
+     Model & Search Set & Skip Factor & Loop & Run Time \\
+     \hline
+    
+                    EXP & SET & 1 & 273.931034483 & 7.5318\\
+                    
+                    EXP & SET & 2 & 135.793103448 & 3.8460\\
+                    
+                    EXP & SET & 3 & 91.275862069 & 2.6530\\
+                    
+                    EXP & SET & 4 & 69.1724137931 & 1.9708\\
+                    
+                    LIN & SET & 1 & 288.586206897 & 7.8336\\
+                    
+                    LIN & SET & 2 & 144.103448276 & 3.9792\\
+                    
+                    LIN & SET & 3 & 96.724137931 & 2.6609\\
+                    
+                    LIN & SET & 4 & 73.3103448276 & 2.0411\\
+                    
+                    EXP & ALL & 1 & 277.517241379 & 8.8556\\
+                    
+                    EXP & ALL & 2 & 137.793103448 & 4.3685\\
+                    
+                    EXP & ALL & 3 & 92.6896551724 & 2.8966\\
+                    
+                    EXP & ALL & 4 & 69.8275862069 & 2.2799\\
+                    
+                    LIN & ALL & 1 & 333.827586207 & 10.6612\\
+                    
+                    LIN & ALL & 2 & 167.620689655 & 5.3442\\
+                    
+                    LIN & ALL & 3 & 112.24137931 & 3.7484\\
+                    
+                    LIN & ALL & 4 & 84.7586206897 & 2.7969\\
+                    
+     \hline
+    \end{tabular}
+    
+
+

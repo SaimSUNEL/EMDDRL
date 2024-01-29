@@ -1,0 +1,1 @@
+{"DDCF": {"STEPLIMITEQUALLYBALANCED": {"20": {"20": {"DATASET": "STEPLIMITEQUALLYBALANCED\n", "ALGORITHM": "DDCF\n", "POSITIVEBAG": "20\n", "NEGATIVEBAG": "20\n", "K": "12\n", "Total DDCF run time ": " 27.16100582900117\n", "Average DDCF run time ": " 0.27161005829001167\n", "K parmaeter ": " 12\n", "Precision": 0.93}}}}}

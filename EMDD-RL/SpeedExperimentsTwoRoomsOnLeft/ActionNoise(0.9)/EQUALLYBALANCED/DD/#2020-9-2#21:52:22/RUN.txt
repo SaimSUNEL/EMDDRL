@@ -1,0 +1,4 @@
+DATASET:EQUALLYBALANCED
+ALGORITHM:DD
+Total DD run time : 288.037135
+Average DD run time : 9.932315

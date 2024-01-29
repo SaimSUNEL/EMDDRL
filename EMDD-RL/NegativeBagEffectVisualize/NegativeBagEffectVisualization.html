@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>NegativeBagEffectExperiments</title>
+  <meta name="generator" content="Google Web Designer 8.0.3.0603">
+  <style type="text/css" id="gwd-text-style">
+    p {
+      margin: 0px;
+    }
+    h1 {
+      margin: 0px;
+    }
+    h2 {
+      margin: 0px;
+    }
+    h3 {
+      margin: 0px;
+    }
+  </style>
+  <style type="text/css">
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+    }
+    body {
+      background-color: transparent;
+      transform: perspective(1400px) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+      transform-style: preserve-3d;
+      left: 0%;
+      top: 0%;
+    }
+    .gwd-select-i4io {
+      position: absolute;
+      width: 100px;
+      height: 24px;
+      left: 12px;
+      top: 10px;
+    }
+    .gwd-select-1qia {
+      position: absolute;
+      width: 100px;
+      height: 24px;
+      left: 12px;
+      top: 69px;
+    }
+    .gwd-select-y5c0 {
+      position: absolute;
+      width: 100px;
+      height: 24px;
+      left: 138px;
+      top: 10px;
+    }
+    .gwd-select-omjk {
+      position: absolute;
+      width: 100px;
+      height: 24px;
+      left: 138px;
+      top: 69px;
+    }
+    .gwd-select-1ugd {
+      position: absolute;
+      width: 100px;
+      height: 24px;
+      left: 12px;
+      top: 119px;
+    }
+    .gwd-select-1tzo {
+      left: 971px;
+      top: 9px;
+    }
+    .gwd-select-12a0 {
+      left: 971px;
+      top: 68px;
+    }
+    .gwd-select-1oxu {
+      left: 1097px;
+      top: 9px;
+    }
+    .gwd-select-l2yt {
+      left: 1097px;
+      top: 68px;
+    }
+    .gwd-select-14z6 {
+      left: 971px;
+      top: 118px;
+    }
+    .gwd-imagebutton-2nq0 {
+      position: absolute;
+      width: 200px;
+      height: 140px;
+      left: 19px;
+      top: 159px;
+    }
+    .gwd-imagebutton-1khq {
+      left: 23px;
+      top: 328px;
+    }
+    .gwd-imagebutton-hdgj {
+      width: 300px;
+      height: 200px;
+      left: 345px;
+      top: 394px;
+    }
+    .gwd-imagebutton-y6mt {
+      width: 300px;
+      height: 200px;
+      left: 195px;
+      top: 630px;
+    }
+    .gwd-img-1yd1 {
+      width: 300px;
+      height: 200px;
+      left: 345px;
+      top: 165px;
+    }
+    .gwd-img-1o2g {
+      left: 23px;
+      width: 300px;
+      height: 200px;
+      top: 394px;
+    }
+    .gwd-img-174l {
+      left: 23px;
+      top: 166px;
+      width: 300px;
+      height: 200px;
+    }
+    .gwd-img-1jlq {
+      left: 741px;
+      top: 165px;
+    }
+    .gwd-img-18a5 {
+      left: 741px;
+      top: 393px;
+    }
+    .gwd-img-1jf1 {
+      left: 1063px;
+      top: 164px;
+    }
+    .gwd-img-1jo0 {
+      left: 1063px;
+      top: 393px;
+    }
+    .gwd-img-fhdt {
+      left: 913px;
+      top: 629px;
+    }
+    .gwd-img-157f {
+      top: 393px;
+    }
+  </style>
+  <script language="JavaScript">
+    function load() {
+      algorithm = document.getElementById("select_1").value;
+      dataset = document.getElementById("select_3").value;
+      method = document.getElementById("select_2").value;
+      search = document.getElementById("select_4").value;
+      skip = document.getElementById("select_5").value;
+      if (dataset == "STEPLIMITEQUALLYBALANCED") data_version = "ActionNoise(0.9)StepLimit(200)";
+      else if (dataset == "EQUALLYBALANCED") data_version = "ActionNoise(0.9)";
+
+      if (algorithm == "EMDD") {
+
+        experiment_folder = "../NegativeBagEffectExperiments/" + data_version + "/" + dataset + "/" + algorithm + "/" + method + "/" + search + "/" + skip;
+        first_image = experiment_folder + "/%2320Positive%230Negative/" + data_version + dataset + algorithm + search + method +
+          "%2320Positive%230Negative.png";
+        second_image = experiment_folder + "/%2320Positive%235Negative/" + data_version + dataset + algorithm + search + method +
+          "%2320Positive%235Negative.png";
+        third_image = experiment_folder + "/%2320Positive%2310Negative/" + data_version + dataset + algorithm + search + method +
+          "%2320Positive%2310Negative.png";
+
+        forth_image = experiment_folder + "/%2320Positive%2315Negative/" + data_version + dataset + algorithm + search + method +
+          "%2320Positive%2315Negative.png";
+
+        fifth_image = experiment_folder + "/%2320Positive%2320Negative/" + data_version + dataset + algorithm + search + method +
+          "%2320Positive%2320Negative.png";
+
+      } else if (algorithm == "DD") {
+        experiment_folder = "../NegativeBagEffectExperiments/" + data_version + "/" + dataset + "/" + algorithm + "/";
+        first_image = experiment_folder + "/%2320Positive%230Negative/" + data_version + dataset + algorithm + "%2320Positive%230Negative.png";
+        second_image = experiment_folder + "/%2320Positive%235Negative/" + data_version + dataset + algorithm + "%2320Positive%235Negative.png";
+        third_image = experiment_folder + "/%2320Positive%2310Negative/" + data_version + dataset + algorithm + "%2320Positive%2310Negative.png";
+
+        forth_image = experiment_folder + "/%2320Positive%2315Negative/" + data_version + dataset + algorithm + "%2320Positive%2315Negative.png";
+
+        fifth_image = experiment_folder + "/%2320Positive%2320Negative/" + data_version + dataset + algorithm + "%2320Positive%2320Negative.png";
+      }
+
+
+      img1 = document.getElementById("img_1").src = first_image;
+            img1.title = img1.alt;
+
+      img2 = document.getElementById("img_2").src = second_image;
+      img2.title = img2.alt;
+
+        img3 = document.getElementById("img_3").src = third_image;
+            img3.title = img3.alt;
+
+        img4 = document.getElementById("img_4").src = forth_image;
+            img4.title = img4.alt;
+
+        img5 = document.getElementById("img_5").src = fifth_image;
+      img5.title = img5.alt;
+
+      //alert(first_image);
+
+
+    }
+
+    function load2() {
+      algorithm = document.getElementById("select_6").value;
+      dataset = document.getElementById("select_8").value;
+      method = document.getElementById("select_7").value;
+      search = document.getElementById("select_9").value;
+      skip = document.getElementById("select_10").value;
+      if (dataset == "STEPLIMITEQUALLYBALANCED") data_version = "ActionNoise(0.9)StepLimit(200)";
+      else if (dataset == "EQUALLYBALANCED") data_version = "ActionNoise(0.9)";
+      if (algorithm == "EMDD") {
+
+        experiment_folder = "../NegativeBagEffectExperiments/" + data_version + "/" + dataset + "/" + algorithm + "/" + method + "/" + search + "/" + skip;
+        first_image = experiment_folder + "/%2320Positive%230Negative/" + data_version + dataset + algorithm + search + method +
+          "%2320Positive%230Negative.png";
+        second_image = experiment_folder + "/%2320Positive%235Negative/" + data_version + dataset + algorithm + search + method +
+          "%2320Positive%235Negative.png";
+        third_image = experiment_folder + "/%2320Positive%2310Negative/" + data_version + dataset + algorithm + search + method +
+          "%2320Positive%2310Negative.png";
+
+        forth_image = experiment_folder + "/%2320Positive%2315Negative/" + data_version + dataset + algorithm + search + method +
+          "%2320Positive%2315Negative.png";
+
+        fifth_image = experiment_folder + "/%2320Positive%2320Negative/" + data_version + dataset + algorithm + search + method +
+          "%2320Positive%2320Negative.png";
+      } else if (algorithm == "DD") {
+        experiment_folder = "../NegativeBagEffectExperiments/" + data_version + "/" + dataset + "/" + algorithm;
+        first_image = experiment_folder + "/%2320Positive%230Negative/" + data_version + dataset + algorithm + "%2320Positive%230Negative.png";
+        second_image = experiment_folder + "/%2320Positive%235Negative/" + data_version + dataset + algorithm + "%2320Positive%235Negative.png";
+        third_image = experiment_folder + "/%2320Positive%2310Negative/" + data_version + dataset + algorithm + "%2320Positive%2310Negative.png";
+
+        forth_image = experiment_folder + "/%2320Positive%2315Negative/" + data_version + dataset + algorithm + "%2320Positive%2315Negative.png";
+
+        fifth_image = experiment_folder + "/%2320Positive%2320Negative/" + data_version + dataset + algorithm + "%2320Positive%2320Negative.png";
+
+      }
+
+      img1 = document.getElementById("img_6").src = first_image;
+      img1.title = img1.alt;
+     
+      img2 = document.getElementById("img_7").src = second_image;
+      img2.title = img2.alt;
+
+       img3 = document.getElementById("img_8").src = third_image;
+            img3.title = img3.alt;
+
+        img4 = document.getElementById("img_9").src = forth_image;
+              img4.title = img4.alt;
+
+      img5 = document.getElementById("img_10").src = fifth_image;
+      img5.title = img5.alt;
+
+      //alert(first_image);
+
+
+    }
+
+    function starting() {
+      load();
+      load2();
+    }
+  </script>
+</head>
+
+<body class="htmlNoPages" onload="starting();">
+  <select id="select_1" class="gwd-select-i4io" onchange="load();">
+    <option value="EMDD" selected="">EMDD</option>
+    <option value="DD">DD</option>
+  </select>
+  <select id="select_2" class="gwd-select-1qia" onchange="load();">
+    <option value="LINEAR" selected="">LINEAR</option>
+    <option value="EXPONENTIAL">EXPONENTIAL</option>
+  </select>
+  <select id="select_3" class="gwd-select-y5c0" onchange="load();">
+    <option value="STEPLIMITEQUALLYBALANCED" selected="">STEPLIMITEQUALLY</option>
+    <option value="EQUALLYBALANCED">EQUAL</option>
+  </select>
+  <select id="select_4" class="gwd-select-omjk" onchange="load();">
+    <option value="H_ALL" selected="">H_ALL</option>
+    <option value="H_SET">H_SET</option>
+  </select>
+  <select id="select_5" class="gwd-select-1ugd" onchange="load();">
+    <option value="1" selected="">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+  </select>
+  <select id="select_6" class="gwd-select-i4io gwd-select-1tzo" onchange="load2();">
+    <option value="EMDD" selected="">EMDD</option>
+    <option value="DD">DD</option>
+  </select>
+  <select id="select_7" class="gwd-select-1qia gwd-select-12a0" onchange="load2();">
+    <option value="LINEAR" selected="">LINEAR</option>
+    <option value="EXPONENTIAL">EXPONENTIAL</option>
+  </select>
+  <select id="select_8" class="gwd-select-y5c0 gwd-select-1oxu" onchange="load2();">
+    <option value="STEPLIMITEQUALLYBALANCED" selected="">STEPLIMITEQUALLY</option>
+    <option value="EQUALLYBALANCED">EQUAL</option>
+  </select>
+  <select id="select_9" class="gwd-select-omjk gwd-select-l2yt" onchange="load2();">
+    <option value="H_ALL" selected="">H_ALL</option>
+    <option value="H_SET">H_SET</option>
+  </select>
+  <select id="select_10" class="gwd-select-1ugd gwd-select-14z6" onchange="load2();">
+    <option value="1" selected="">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+  </select>
+  <img id="img_1" width="480" height="640" class="gwd-imagebutton-2nq0 gwd-img-174l" alt="Negative Bag : 0">
+  <img id="img_3" class="gwd-imagebutton-2nq0 gwd-img-1o2g" alt="Negative Bag : 10">
+  <img id="img_2" class="gwd-imagebutton-2nq0 gwd-imagebutton-1khq gwd-img-1yd1" alt="Negative Bag : 5">
+  <img id="img_4" class="gwd-imagebutton-2nq0 gwd-imagebutton-hdgj gwd-img-157f" alt="Negative Bag : 15">
+  <img id="img_5" class="gwd-imagebutton-2nq0 gwd-imagebutton-y6mt" alt="Negative Bag : 20">
+  <img id="img_6" width="480" height="640" class="gwd-imagebutton-2nq0 gwd-img-174l gwd-img-1jlq" alt="Negative Bag : 0">
+  <img id="img_8" class="gwd-imagebutton-2nq0 gwd-img-1o2g gwd-img-18a5" alt="Negative Bag : 10">
+  <img id="img_7" class="gwd-imagebutton-2nq0 gwd-imagebutton-1khq gwd-img-1yd1 gwd-img-1jf1" alt="Negative Bag : 5">
+  <img id="img_9" class="gwd-imagebutton-2nq0 gwd-imagebutton-hdgj gwd-img-1jo0" alt="Negative Bag : 15">
+  <img id="img_10" class="gwd-imagebutton-2nq0 gwd-imagebutton-y6mt gwd-img-fhdt" alt="Negative Bag : 20">
+</body>
+
+</html>

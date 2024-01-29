@@ -1,0 +1,87 @@
+
+    \ begin{tabular}{ |p{0.8cm}|p{1.5cm}|p{1.7cm}|p{0.7cm}|p{1.4cm}|  }
+     \hline
+     \multicolumn{5}{|c|}{STEPLIMITEQUALLYBALANCED} \\
+     \hline
+     Model & Search Set & Skip Factor & Loop & Run Time \\
+     \hline
+    
+                    EXP & SET & 1 & 137.85 & 4.0046\\
+                    
+                    EXP & SET & 2 & 69.05 & 2.1055\\
+                    
+                    EXP & SET & 3 & 46.37 & 1.3845\\
+                    
+                    EXP & SET & 4 & 35.07 & 1.1240\\
+                    
+                    LIN & SET & 1 & 256.19 & 5.7514\\
+                    
+                    LIN & SET & 2 & 128.74 & 3.0064\\
+                    
+                    LIN & SET & 3 & 86.14 & 2.1502\\
+                    
+                    LIN & SET & 4 & 64.91 & 1.7046\\
+                    
+     \hline
+    \end{tabular}
+    
+
+
+
+    \ begin{tabular}{ |p{0.8cm}|p{1.5cm}|p{1.7cm}|p{0.7cm}|p{1.4cm}|  }
+     \hline
+     \multicolumn{5}{|c|}{STEPLIMITONLYPOSITIVE} \\
+     \hline
+     Model & Search Set & Skip Factor & Loop & Run Time \\
+     \hline
+    
+                    EXP & SET & 1 & 158.15 & 2.4348\\
+                    
+                    EXP & SET & 2 & 79.54 & 1.3182\\
+                    
+                    EXP & SET & 3 & 53.91 & 0.8512\\
+                    
+                    EXP & SET & 4 & 40.16 & 0.6225\\
+                    
+                    LIN & SET & 1 & 190.99 & 2.7293\\
+                    
+                    LIN & SET & 2 & 96.7 & 1.3934\\
+                    
+                    LIN & SET & 3 & 64.58 & 0.9516\\
+                    
+                    LIN & SET & 4 & 48.53 & 0.7231\\
+                    
+     \hline
+    \end{tabular}
+    
+
+
+
+    \ begin{tabular}{ |p{0.8cm}|p{1.5cm}|p{1.7cm}|p{0.7cm}|p{1.4cm}|  }
+     \hline
+     \multicolumn{5}{|c|}{ONLYPOSITIVE} \\
+     \hline
+     Model & Search Set & Skip Factor & Loop & Run Time \\
+     \hline
+    
+                    EXP & SET & 1 & 330.11 & 13.5838\\
+                    
+                    EXP & SET & 2 & 165.77 & 7.1905\\
+                    
+                    EXP & SET & 3 & 110.22 & 4.7622\\
+                    
+                    EXP & SET & 4 & 82.56 & 3.5938\\
+                    
+                    LIN & SET & 1 & 355.68 & 14.4740\\
+                    
+                    LIN & SET & 2 & 178.61 & 7.0903\\
+                    
+                    LIN & SET & 3 & 118.93 & 4.8395\\
+                    
+                    LIN & SET & 4 & 89.28 & 3.8935\\
+                    
+     \hline
+    \end{tabular}
+    
+
+

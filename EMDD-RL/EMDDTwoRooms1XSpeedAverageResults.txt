@@ -1,0 +1,180 @@
+
+    \ begin{tabular}{ |p{0.8cm}|p{1.5cm}|p{1.7cm}|p{0.7cm}|p{1.4cm}|  }
+     \hline
+     \multicolumn{5}{|c|}{STEPLIMITEQUALLYBALANCED} \\
+     \hline
+     Model & Search Set & Skip Factor & Loop & Run Time \\
+     \hline
+    
+                    EXP & SET & 1 & 55.55 & 0.8433\\
+                    
+                    EXP & SET & 2 & 28.21 & 0.4433\\
+                    
+                    EXP & SET & 3 & 18.76 & 0.2963\\
+                    
+                    EXP & SET & 4 & 14.43 & 0.2235\\
+                    
+                    LIN & SET & 1 & 96.25 & 1.1334\\
+                    
+                    LIN & SET & 2 & 48.89 & 0.6471\\
+                    
+                    LIN & SET & 3 & 32.98 & 0.4352\\
+                    
+                    LIN & SET & 4 & 25.23 & 0.3572\\
+                    
+                    EXP & ALL & 1 & 56.27 & 1.3725\\
+                    
+                    EXP & ALL & 2 & 28.59 & 0.7533\\
+                    
+                    EXP & ALL & 3 & 18.93 & 0.4813\\
+                    
+                    EXP & ALL & 4 & 14.64 & 0.4008\\
+                    
+                    LIN & ALL & 1 & 102.42 & 3.2066\\
+                    
+                    LIN & ALL & 2 & 52.1 & 1.7075\\
+                    
+                    LIN & ALL & 3 & 34.98 & 1.2196\\
+                    
+                    LIN & ALL & 4 & 26.93 & 0.9080\\
+                    
+     \hline
+    \end{tabular}
+    
+
+
+
+    \ begin{tabular}{ |p{0.8cm}|p{1.5cm}|p{1.7cm}|p{0.7cm}|p{1.4cm}|  }
+     \hline
+     \multicolumn{5}{|c|}{STEPLIMITONLYPOSITIVE} \\
+     \hline
+     Model & Search Set & Skip Factor & Loop & Run Time \\
+     \hline
+    
+                    EXP & SET & 1 & 62.95 & 0.4513\\
+                    
+                    EXP & SET & 2 & 31.93 & 0.2393\\
+                    
+                    EXP & SET & 3 & 21.53 & 0.1615\\
+                    
+                    EXP & SET & 4 & 16.39 & 0.1250\\
+                    
+                    LIN & SET & 1 & 76.3 & 0.5076\\
+                    
+                    LIN & SET & 2 & 38.85 & 0.2808\\
+                    
+                    LIN & SET & 3 & 26.34 & 0.1828\\
+                    
+                    LIN & SET & 4 & 20.17 & 0.1443\\
+                    
+                    EXP & ALL & 1 & 64.61 & 0.6957\\
+                    
+                    EXP & ALL & 2 & 32.71 & 0.3601\\
+                    
+                    EXP & ALL & 3 & 22.05 & 0.2563\\
+                    
+                    EXP & ALL & 4 & 16.79 & 0.1995\\
+                    
+                    LIN & ALL & 1 & 79.94 & 1.0856\\
+                    
+                    LIN & ALL & 2 & 40.73 & 0.5918\\
+                    
+                    LIN & ALL & 3 & 27.44 & 0.4049\\
+                    
+                    LIN & ALL & 4 & 21.12 & 0.3074\\
+                    
+     \hline
+    \end{tabular}
+    
+
+
+
+    \ begin{tabular}{ |p{0.8cm}|p{1.5cm}|p{1.7cm}|p{0.7cm}|p{1.4cm}|  }
+     \hline
+     \multicolumn{5}{|c|}{EQUALLYBALANCED} \\
+     \hline
+     Model & Search Set & Skip Factor & Loop & Run Time \\
+     \hline
+    
+                    EXP & SET & 1 & 66.73 & 2.3527\\
+                    
+                    EXP & SET & 2 & 33.68 & 1.1599\\
+                    
+                    EXP & SET & 3 & 22.77 & 0.7776\\
+                    
+                    EXP & SET & 4 & 17.07 & 0.5888\\
+                    
+                    LIN & SET & 1 & 111.67 & 3.0549\\
+                    
+                    LIN & SET & 2 & 56.08 & 1.6179\\
+                    
+                    LIN & SET & 3 & 37.46 & 1.1545\\
+                    
+                    LIN & SET & 4 & 28.11 & 0.8990\\
+                    
+                    EXP & ALL & 1 & 69.06 & 2.8546\\
+                    
+                    EXP & ALL & 2 & 34.79 & 1.4357\\
+                    
+                    EXP & ALL & 3 & 23.66 & 0.9648\\
+                    
+                    EXP & ALL & 4 & 17.69 & 0.7204\\
+                    
+                    LIN & ALL & 1 & 127.62 & 4.4844\\
+                    
+                    LIN & ALL & 2 & 63.81 & 2.5767\\
+                    
+                    LIN & ALL & 3 & 43.18 & 1.8832\\
+                    
+                    LIN & ALL & 4 & 31.97 & 1.3260\\
+                    
+     \hline
+    \end{tabular}
+    
+
+
+
+    \ begin{tabular}{ |p{0.8cm}|p{1.5cm}|p{1.7cm}|p{0.7cm}|p{1.4cm}|  }
+     \hline
+     \multicolumn{5}{|c|}{ONLYPOSITIVE} \\
+     \hline
+     Model & Search Set & Skip Factor & Loop & Run Time \\
+     \hline
+    
+                    EXP & SET & 1 & 135.07 & 2.5246\\
+                    
+                    EXP & SET & 2 & 67.87 & 1.2463\\
+                    
+                    EXP & SET & 3 & 45.39 & 0.8819\\
+                    
+                    EXP & SET & 4 & 34.06 & 0.6380\\
+                    
+                    LIN & SET & 1 & 147.81 & 2.5390\\
+                    
+                    LIN & SET & 2 & 74.6 & 1.3376\\
+                    
+                    LIN & SET & 3 & 49.83 & 0.8846\\
+                    
+                    LIN & SET & 4 & 37.71 & 0.6780\\
+                    
+                    EXP & ALL & 1 & 145.03 & 2.8967\\
+                    
+                    EXP & ALL & 2 & 72.96 & 1.5846\\
+                    
+                    EXP & ALL & 3 & 48.36 & 1.0558\\
+                    
+                    EXP & ALL & 4 & 36.62 & 0.8213\\
+                    
+                    LIN & ALL & 1 & 173.75 & 3.7219\\
+                    
+                    LIN & ALL & 2 & 87.91 & 1.9240\\
+                    
+                    LIN & ALL & 3 & 58.08 & 1.3017\\
+                    
+                    LIN & ALL & 4 & 44.25 & 1.0406\\
+                    
+     \hline
+    \end{tabular}
+    
+
+

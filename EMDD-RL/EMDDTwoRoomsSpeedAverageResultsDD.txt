@@ -1,0 +1,18 @@
+ \ begin{tabular}{ |p{0.8cm}|p{1.5cm}|  }
+                           \hline
+                           \multicolumn{2}{|c|}{DD Algorithm} \\
+                           \hline
+                           Dataset & Run Time \\
+                           \hline
+                          
+                                STEPLIMITEQUALLYBALANCED & 0.6480 \\
+                               
+                                STEPLIMITONLYPOSITIVE & 0.3169 \\
+                               
+                                ONLYPOSITIVE & 0.6650 \\
+                               
+     \hline
+    \end{tabular}
+    
+
+
