@@ -1,6 +1,6 @@
 import os
 
-data_directory_path ="MIL/data/POMDP/TwoRoomsV3QAgentTrajectories/ActionNoise(0.9)StepLimit(400)"
+data_directory_path ="MIL/data/TwoRoomsV3QAgentTrajectories/ActionNoise(0.9)StepLimit(400)"
 files = os.listdir(data_directory_path)
 print("Files", files)
 

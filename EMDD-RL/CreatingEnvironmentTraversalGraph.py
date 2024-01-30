@@ -2,32 +2,20 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import pickle
 
-from Environments import RLDDEnvironment, RLFourRoomsEnvironment, RLTwoRoomsEnvironment, RLPOMDPTwoRoomsEnvironment, RLPOMDPFourRoomsEnvironment, RLZigzagEnvironment, RLSampleEnvironment, RLSixRoomsEnvironment
+from Environments import RLFourRoomsEnvironment, RLTwoRoomsEnvironment
 
 
 G = nx.Graph()
-graph_name = "DDRoom" # "ZigzagRoom" # "POMDPFourRoomsV4"
-
-
+graph_name = "TwoRoomv2"
 
 all_states = set()
 two_rooms_env_v2 = RLTwoRoomsEnvironment.RLTwoRoomsEnvironment("v10",is_step_restricted=True,
                                                                 step_limit=400)
 four_rooms_env = RLFourRoomsEnvironment.RLFourRoomsEnvironment(is_step_restricted=True,
                                                                 step_limit=200)
-pomdp_two_rooms_env_3 = RLPOMDPTwoRoomsEnvironment.RLPOMDPTwoRoomsEnvironment('v3', is_step_restricted=False, step_limit=400)
-
-pomdp_four_rooms_env_3 = RLPOMDPFourRoomsEnvironment.RLPOMDPFourRoomsEnvironment('v3', is_step_restricted=False, step_limit=400)
-pomdp_four_rooms_env_4 = RLPOMDPFourRoomsEnvironment.RLPOMDPFourRoomsEnvironment('v4', is_step_restricted=False, step_limit=400)
-zigzag_room_env = RLZigzagEnvironment.RLZigzagEnvironment("v0", is_step_restricted=True, step_limit=1000)
-six_rooms_env = RLSixRoomsEnvironment.RLSixRoomsEnvironment("v0", is_step_restricted=True, step_limit=100)
-
-sample_environment_v0 = RLSampleEnvironment.RLSampleEnvironment("v0", is_step_restricted=True, step_limit=1000)
-sample_environment_v1 = RLSampleEnvironment.RLSampleEnvironment("v1", is_step_restricted=True, step_limit=1000)
-dd_room_env_v0 = RLDDEnvironment.RLDDEnvironment("v0")
 
 
-two_rooms_env_v2 = dd_room_env_v0 # zigzag_room_env
+
 environment_adjacency_dict  = two_rooms_env_v2.getEnvironmentGraph()
 for node in environment_adjacency_dict:
     neighbors = environment_adjacency_dict[node]
